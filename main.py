@@ -34,6 +34,16 @@ def get_courses():
             "name": "Course 5"
 
         }
+         {
+             "id": 6,
+            "name": "Course 5"
+
+        }
+         {
+             "id": 7,
+            "name": "Course 5"
+
+        }
     ]
 
 @api.get("/add/{a}/{b}")
