@@ -1,0 +1,206 @@
+/* Style for the Navigation Bar */
+nav {
+  background-color: #4698B1;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+}
+
+li {
+  display: inline;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+
+.topic-list a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style for the Main Content */
+.content {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.search-box {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+label {
+  font-size: 16px;
+  display: block;
+  margin-top: 10px;
+}
+
+#course-list {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%;
+}
+
+ .dashboard {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+     }
+
+   .course-card {
+   height: 300px;
+  width: calc(20% - 20px);
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #f0f0f0;
+  width: 20%;
+  min-height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  flex-direction: row;
+  position: relative;
+   }
+
+.course-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.course-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Make the image cover the entire container */
+}
+
+.card-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    }
+
+
+/* Style course titles and descriptions*/
+.course-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for the text */
+    color: #fff; /* Set the text color to white */
+}
+
+    .course-title {
+      font-size: 18px;
+      font-weight: 500px;
+    }
+
+    .course-description {
+      font-size: 14px;
+      margin-top: 10px;
+      font-weight: 500px;
+    }
+
+/* Main Course Container - Uses Flexbox */
+
+.course-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Left Side - Topic List */
+.topic-list {
+    width: 100px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+    height: 100vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+
+.topic-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.topic-list li  {
+    margin: 10px 0;
+}
+
+.topic-list a:hover {
+            color: #007bff;
+}
+
+/* Right Side - Video Player */
+.video-player {
+    flex: 2;
+    padding: 20px;
+}
+
+video {
+    width: 100%;
+}
+
+
+
+

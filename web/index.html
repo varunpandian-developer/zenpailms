@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="course-list.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="coursedashboard.html">Course Dashboard</a></li>
+      <li><a href="#">Career Path</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Main Content (Home Page) -->
+  <div class="content">
+    <h1>Welcome to the Zenpai solutions</h1>
+    
+    <!-- Search Box -->
+    <div class="search-box">
+      <input type="text" placeholder="Search for courses">
+      <button>Search</button>
+    </div>
+    
+    <!-- Course Dropdown List -->
+    <label for="course-list" style="">Select a Course:</label>
+    <select id="course-list">
+    </select>
+
+    <div class="add">
+      <input id="num1" type="number" placeholder="num 1">
+      <input id="num2" type="number" placeholder="num 2">
+      <button onclick="add()"></button>
+      <p id="result">none</p>
+    </div>
+  </div>
+</body>
+</html>

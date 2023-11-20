@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="coursedashboard.html">Course Dashboard</a></li>
+            <li><a href="#">Career Path</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content (Course Page) -->
+    <div class="course-container">
+        <!-- Left Side - Topic List -->
+        <div class="topic-list">
+            <h2>Topics</h2>
+            <ul>
+                <li><a href="#;" onclick="loadVideo('../videos/t1 (1).mp4')">Topic 1</a></li>
+                <li><a href="#;" onclick="loadVideo('../videos/t1 (2).mp4')">Topic 2</a></li>
+                 <li><a href="#;" onclick="loadVideo('../videos/t1 (3).mp4')">Topic 2</a></li>
+                <!-- Add more topics here -->
+            </ul>
+        </div>
+
+        <!-- Right Side - Video Player -->
+        <div class="video-player">
+            <video id="course-video" controls>
+                <source src="../videos/sample1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script>
+        function loadVideo(videoSource) {
+            const videoPlayer = document.getElementById("course-video");
+            videoPlayer.src = videoSource;
+            videoPlayer.load();
+        }
+    </script>
+</body>
+</html>
