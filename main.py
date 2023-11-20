@@ -33,12 +33,12 @@ def get_courses():
              "id": 5,
             "name": "Course 5"
 
-        }
+        },
          {
              "id": 6,
             "name": "Course 5"
 
-        }
+        },
          {
              "id": 7,
             "name": "Course 5"
